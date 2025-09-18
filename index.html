@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" /> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -29,29 +28,45 @@
                 Up</button>
         </div>
     </header>
-    <main class="bg-[#ffffff] py-12 lg:px-16 px-6">
+    <main class="bg-[#ffffff] py-12 lg:px-16">
         <!-- banner section -->
         <banner class="">
             <div class="hero bg-[#ffffff]">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                    <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                        class="w-[540px] h-[400px] rounded-lg shadow-2xl" />
-                    <div class="w-[540px]">
-                        <h1 class="text-5xl font-bold text-black">Build Something<br/> Amazine</h1>
+                    <img src="./image/coding.jpg"
+                        class="lg:w-[540px] lg:h-[400px] w-auto rounded-lg shadow-2xl" />
+                    <div class="lg:w-[540px]">
+                        <h1 class="lg:text-5xl text-4xl font-bold text-black">Build Something<br/> Amazine</h1>
                         <p class="py-6 text-black">
                             Create stunning digital experiences with our modern design<br/> solutions. transform your ideas into reality with cutting edge<br/> technology and innavative approaches
                         </p>
-                        <div>
-                            <div>
-                                <button class="">Get started</button>
+                        <div class="lg:flex gap-5">
+                            <div class="w-[180px] h-[54px] bg-black rounded-lg py-3 px-9">
+                                <button class=" text-width">Get started</button>
+                                <i class="fa-solid fa-arrow-right "></i>
                             </div>
-                            <div>
+                            <div class="border bg-[#ffffff] w-[180px] h-[54px] border-black rounded-lg py-3 px-7">
+                                <i class="fa-solid fa-play"></i>
                                 <button class="text-black">Watch Demo</button>
                             </div>
                         </div>
-                        
+                        <div class="py-10 flex gap-10">
+                        <div>
+                            <h3 class="text-xl text-black font-bold">10+</h3>
+                            <p class="text-black">Happy customer</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl text-black font-bold">99%</h3>
+                            <p class="text-black">Satisfaction Rate</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl text-black font-bold">24/7</h3>
+                            <p class="text-black">support</p>
+                        </div>
+                    </div>
                         
                     </div>
+                    
                 </div>
             </div>
         </banner>
